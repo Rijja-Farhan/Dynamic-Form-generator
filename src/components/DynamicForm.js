@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import * as Yup from 'yup';
-import '../styles.css'; 
+
 const DynamicForm = ({ schema, onSubmit }) => {
   // State to store form values
   const [formValues, setFormValues] = useState(
