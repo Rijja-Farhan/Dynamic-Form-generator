@@ -1,0 +1,23 @@
+{
+  "name": "@rijjafarhan/dynamic-form-generator",
+  "version": "1.0.1",
+  "description": "Dynamic Form generator npm package",
+  "main": "dist/index.js",
+  "private": false,
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9"
+  }
+}

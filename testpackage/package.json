@@ -1,0 +1,15 @@
+{
+  "name": "testpackage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["dynamic", "form", "generator"], 
+  "author": "Your Name",  
+  "license": "ISC",
+  "description": "A test package using @rijjafarhan/dynamic-form-generator",
+  "dependencies": {
+    "@rijjafarhan/dynamic-form-generator": "^1.0.0"
+  }
+}
